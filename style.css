@@ -2,12 +2,13 @@ header.header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px black solid;
+    border-bottom: 0.1px rgba(0, 0, 0, 0.16) solid;
+    padding-bottom: 0px;
 }
 
 header.header div.logoContainer p{
-    font-size: 25px;
-    margin-right: 250px;
+    font-size: 24px;
+    margin-right: 100px;
 }
 
 header.header div.logoContainer p:hover{
@@ -23,7 +24,7 @@ header.header nav.navbar{
 header.header nav.navbar ul{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     list-style: none;
 }
 
@@ -33,7 +34,7 @@ header.header nav.navbar ul li a{
     font-size: 18px;
 }
 
-header.header nav.navbar ul li a:hover{
+header.header nav.navbar ul li a:hover, header.header div#circle p:hover{
     border-bottom: 1px black solid;
 }
 
@@ -47,4 +48,40 @@ header.header div#circle{
     justify-content: center;
     margin-left: 20px;
     text-align: end;
+}
+
+header.header div#circle p{
+    cursor: pointer;
+}
+
+main.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main.text p{
+    width: 55%;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 9px;
+}
+
+main.text div.image{
+    display: flex;
+    justify-content: center;
+    transform: scale(0.35);
+    cursor: pointer;
+    position:absolute;
+}
+
+main.text div.body{
+    display: flex;
+    margin-top: 10%;
+}
+
+main.text div.body img{
+    display: flex;
+    transform: scale(0.4);
 }
