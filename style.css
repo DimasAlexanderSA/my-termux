@@ -58,11 +58,12 @@ main.text{
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 0px;
 
 }
 
-main.text p{
-    width: 55%;
+main.text p.first{
+    width: 70%;
     font-size: 17px;
     font-family: sans-serif;
     margin-top: 9px;
@@ -71,17 +72,38 @@ main.text p{
 main.text div.image{
     display: flex;
     justify-content: center;
-    transform: scale(0.35);
     cursor: pointer;
-    position:absolute;
+}
+
+main.text div.image img{
+    width: 226.1px;
+    height: 87.5px;
 }
 
 main.text div.body{
     display: flex;
-    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
 }
 
 main.text div.body img{
     display: flex;
-    transform: scale(0.4);
+    width: 500px;
+    height:700px;
+}
+
+main.text div.body div.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 45%;
+}
+
+main.text div.body div.txt p{
+    width: 100%;
+    font-size: 17px;
+    font-family: sans-serif;
+
+
 }
