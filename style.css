@@ -133,7 +133,8 @@ footer{
 }
 
 footer a:hover{
-    border-bottom: 1px rgba(0, 0, 255, 0.515) solid ;
+    color: rgba(0, 0, 0, 0.655);
+    border-bottom: 1px rgba(0,0,0,0.655) solid ;
 }
 
 footer a{

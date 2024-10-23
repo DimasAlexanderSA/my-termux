@@ -46,7 +46,7 @@
             </div>
             <img src="hello_framed.png">
         </div>
-        <img src="hosted-by-hetzner.png">
+        <img class="hetzner" style="cursor: pointer;" src="hosted-by-hetzner.png">
     </main>
     <footer>
         <div class="foot1">
@@ -66,13 +66,18 @@
     </footer>
 
     <script>
-        document.querySelector("main.text div.image img.fdroid").addEventListener('click',event=>{
-            event.preventDefault();
+        document.querySelector("main.text div.image img.fdroid").addEventListener('click',clck=>{
+            clck.preventDefault();
             window.location.href="https://github.com/termux/termux-app#f-droid";
         })
-        document.querySelector("main.text div.image img.github").addEventListener('click',event =>{
-            event.preventDefault();
-            Window.location.href="github.com"
+        document.querySelector("main.text div.image img.github").addEventListener('click',clck =>{
+            clck.preventDefault();
+            Window.location.href="github.com";
+        })
+
+        document.querySelector("main.text img.hetzner").addEventListener('click',clck=>{
+            clck.preventDefault();
+            window.location.href="https://www.hetzner.com/cloud/";
         })
     </script>
 </body>
