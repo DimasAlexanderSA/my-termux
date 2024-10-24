@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termux</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" href="termux.png">
 </head>
 <body>
     <header class="header">
         <div class="logoContainer">
-            <p>Termux</p>
+            <p class="main">Termux</p>
+            <script>
+                document.querySelector("header.header div.logoContainer p.main").addEventListener('click',clck=>{
+                clck.preventDefault();
+                window.location.href = "index.html"
+            })
+            </script>
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Posts</a></li>
+                <li><a href="docs.html">Docs</a></li>
+                <li><a href="post.html">Posts</a></li>
                 <li><a href="#">Packages</a></li>
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Privacy Police</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="privacy.html">Privacy Police</a></li>
             </ul>
         </nav>
         <diV id="circle">
@@ -47,6 +55,7 @@
             <img src="hello_framed.png">
         </div>
         <img class="hetzner" style="cursor: pointer;" src="hosted-by-hetzner.png">
+        <link rel="stylesheet" href="">
     </main>
     <footer>
         <div class="foot1">
