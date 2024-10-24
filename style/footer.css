@@ -72,6 +72,8 @@ footer{
     flex-direction: column;
     height: 200px;
     flex-wrap: wrap;
+    border-top: 0.1px rgba(0, 0, 0, 0.16) solid;
+    padding-top:15px;
 }
 
 footer a:hover{

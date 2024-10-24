@@ -10,13 +10,12 @@ main.body{
 }
 
 main.body div.text{
-    width: 70%;
+    width: 65%;
 }
 
-main.body div.text p.term-docs, main.body div.text p.term-post,main.body div.text p.term-donate{
+main.body div.text p.term{
     font-family: "Titillium Web", sans-serif;
     font-size: 30px;
-    font-weight: 100px;
     border-bottom: 0.1px rgba(0, 0, 0, 0.16) solid;
 }
 
@@ -31,13 +30,12 @@ main.body div.text a:hover{
 }
 
 main.body div.text ul.doc   {
-    border-bottom: 0.1px rgba(0, 0, 0, 0.16) solid;
-    padding-bottom: 35px;   
+    margin-bottom: 40px;   
 }
 
 main.body p{
     font-family: "Titillium Web", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 main.body div.text div.text-donate p.contain{
@@ -45,20 +43,21 @@ main.body div.text div.text-donate p.contain{
     font-size: 17px;
 }
 
+a.link{
+    color:rgba(0, 0, 255, 0.552);
+    padding-bottom: 0px;
+
+}
+
+a.link:hover{
+    color:black;
+    border-bottom: 2px black solid;
+}
+
 main.body div.text div.text-donate h1{
     font-family: "Roboto";
     color: rgb(0, 0, 0);
     font-size: 18px;
-}
-
-div.hr-post{
-    margin-top: 150px;
-    border-top: 0.1px rgba(0, 0, 0, 0.16) solid;
-}
-
-div.hr-donate{
-    margin-top: 100px;
-    border-top: 0.1px rgba(0, 0, 0, 0.16) solid;
 }
 
 main.body div.text ul.ul-post{
